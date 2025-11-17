@@ -1,0 +1,5 @@
+{
+    "files": {
+        "test": ["example_with_config_test.py"]
+    }
+}

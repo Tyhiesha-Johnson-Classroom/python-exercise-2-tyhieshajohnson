@@ -1,0 +1,34 @@
+{
+  "version": 3,
+  "status": "pass",
+  "tests": [
+    {
+      "name": "ExampleSuccess > hello",
+      "status": "pass",
+      "test_code": "self.assertEqual(hello(), \"Hello, World!\")",
+      "task_id": 0,
+      "output": "User output is captured!"
+    },
+    {
+      "name": "ExampleSuccess > abc",
+      "status": "pass",
+      "test_code": "self.assertEqual(hello(), \"Hello, World!\")",
+      "task_id": 0,
+      "output": "User output is captured!"
+    },
+    {
+      "name": "ExampleSuccessOther > dummy",
+      "status": "pass",
+      "test_code": "self.assertEqual(hello(), \"Hello, World!\")",
+      "task_id": 0,
+      "output": "User output is captured!"
+    },
+    {
+      "name": "ExampleSuccessOther > hello",
+      "status": "pass",
+      "test_code": "self.assertEqual(hello(), \"Hello, World!\")",
+      "task_id": 0,
+      "output": "User output is captured!"
+    }
+  ]
+}

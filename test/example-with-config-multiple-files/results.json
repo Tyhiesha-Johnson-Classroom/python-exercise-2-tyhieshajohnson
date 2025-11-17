@@ -1,0 +1,78 @@
+{
+  "version": 3,
+  "status": "pass",
+  "tests": [
+    {
+      "filename": "test/example-with-config-multiple-files/example_first_test.py",
+      "line_no": 7,
+      "name": "ExampleFirst > hello",
+      "status": "pass",
+      "test_code": "self.assertEqual(hello(), \"Hello, World!\")",
+      "task_id": 0,
+      "output": "User output is captured!"
+    },
+    {
+      "filename": "test/example-with-config-multiple-files/example_second_test.py",
+      "line_no": 7,
+      "name": "ExampleSecond > hello",
+      "status": "pass",
+      "test_code": "self.assertEqual(hello(), \"Hello, World!\")",
+      "task_id": 0,
+      "output": "User output is captured!"
+    },
+    {
+      "filename": "test/example-with-config-multiple-files/example_first_test.py",
+      "line_no": 10,
+      "name": "ExampleFirst > abc",
+      "status": "pass",
+      "test_code": "self.assertEqual(hello(), \"Hello, World!\")",
+      "task_id": 0,
+      "output": "User output is captured!"
+    },
+    {
+      "filename": "test/example-with-config-multiple-files/example_second_test.py",
+      "line_no": 10,
+      "name": "ExampleSecond > abc",
+      "status": "pass",
+      "test_code": "self.assertEqual(hello(), \"Hello, World!\")",
+      "task_id": 0,
+      "output": "User output is captured!"
+    },
+    {
+      "filename": "test/example-with-config-multiple-files/example_first_test.py",
+      "line_no": 15,
+      "name": "ExampleFirstOther > dummy",
+      "status": "pass",
+      "test_code": "self.assertEqual(hello(), \"Hello, World!\")",
+      "task_id": 0,
+      "output": "User output is captured!"
+    },
+    {
+      "filename": "test/example-with-config-multiple-files/example_second_test.py",
+      "line_no": 15,
+      "name": "ExampleSecondOther > dummy",
+      "status": "pass",
+      "test_code": "self.assertEqual(hello(), \"Hello, World!\")",
+      "task_id": 0,
+      "output": "User output is captured!"
+    },
+    {
+      "filename": "test/example-with-config-multiple-files/example_first_test.py",
+      "line_no": 18,
+      "name": "ExampleFirstOther > hello",
+      "status": "pass",
+      "test_code": "self.assertEqual(hello(), \"Hello, World!\")",
+      "task_id": 0,
+      "output": "User output is captured!"
+    },
+    {
+      "filename": "test/example-with-config-multiple-files/example_second_test.py",
+      "line_no": 18,
+      "name": "ExampleSecondOther > hello",
+      "status": "pass",
+      "test_code": "self.assertEqual(hello(), \"Hello, World!\")",
+      "task_id": 0,
+      "output": "User output is captured!"
+    }
+  ]
+}

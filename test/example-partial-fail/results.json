@@ -1,0 +1,32 @@
+{
+  "version": 3,
+  "status": "fail",
+  "tests": [
+    {
+      "name": "ExamplePartialFail > hello",
+      "status": "fail",
+      "message": "AssertionError: 'Hello, World!' != 'Goodbye'\n- Hello, World!\n+ Goodbye",
+      "test_code": "self.assertEqual(hello(), \"Goodbye\")",
+      "task_id": 0
+    },
+    {
+      "name": "ExamplePartialFail > abc",
+      "status": "pass",
+      "test_code": "self.assertEqual(hello(), \"Hello, World!\")",
+      "task_id": 0
+    },
+    {
+      "name": "ExamplePartialFailOther > dummy",
+      "status": "fail",
+      "message": "AssertionError: 'Hello, World!' != 'Goodbye'\n- Hello, World!\n+ Goodbye",
+      "test_code": "self.assertEqual(hello(), \"Goodbye\")",
+      "task_id": 0
+    },
+    {
+      "name": "ExamplePartialFailOther > hello",
+      "status": "pass",
+      "test_code": "self.assertEqual(hello(), \"Hello, World!\")",
+      "task_id": 0
+    }
+  ]
+}

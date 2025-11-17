@@ -1,0 +1,5 @@
+{
+    "files": {
+        "test": ["example_first_test.py", "example_second_test.py"]
+    }
+}
